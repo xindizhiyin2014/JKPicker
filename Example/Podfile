@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JKPicker_Example' do
+  pod 'JKPicker', :path => '../'
+
+  target 'JKPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
