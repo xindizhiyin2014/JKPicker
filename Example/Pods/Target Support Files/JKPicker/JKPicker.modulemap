@@ -1,0 +1,6 @@
+framework module JKPicker {
+  umbrella header "JKPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

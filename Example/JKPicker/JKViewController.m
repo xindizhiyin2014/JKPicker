@@ -7,7 +7,7 @@
 //
 
 #import "JKViewController.h"
-
+#import "JKPicker.h"
 @interface JKViewController ()
 
 @end
@@ -18,6 +18,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    JKDatePicker *datePicker = [JKDatePicker showPickerInView:self.view window:nil];
+        datePicker.format = @"y-m";
+        datePicker.startDateLimit = @"2012";
+        datePicker.endDateLimit = @"2016";
+        datePicker.startValue = @"2012-12";
 }
 
 - (void)didReceiveMemoryWarning

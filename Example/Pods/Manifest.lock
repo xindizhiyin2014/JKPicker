@@ -1,0 +1,16 @@
+PODS:
+  - JKPicker (0.1.0)
+
+DEPENDENCIES:
+  - JKPicker (from `../`)
+
+EXTERNAL SOURCES:
+  JKPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKPicker: 7d01afefc563b2cb377b140c03bcc2c2ba55a508
+
+PODFILE CHECKSUM: 19b50177620bb61b7997ca5cb132c16e48a842cc
+
+COCOAPODS: 1.1.1

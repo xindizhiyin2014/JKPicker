@@ -1,0 +1,22 @@
+{
+  "name": "JKPicker",
+  "version": "0.1.0",
+  "summary": "A short description of JKPicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/HHL110120/JKPicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "HHL110120": "92909274@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/HHL110120/JKPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JKPicker/Classes/**/*"
+}
