@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 this is a tool of datePicker,picker,it will update with needs.welcome to join us
                        DESC
 
-  s.homepage         = 'https://github.com/HHL110120/JKPicker'
+  s.homepage         = 'https://github.com/xindizhiyin2014/JKPicker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'HHL110120' => '92909274@qq.com' }
-  s.source           = { :git => 'https://github.com/HHL110120/JKPicker.git', :tag => s.version.to_s }
+  s.author           = { 'xindizhiyin2014' => '92909274@qq.com' }
+  s.source           = { :git => 'https://github.com/xindizhiyin2014/JKPicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
